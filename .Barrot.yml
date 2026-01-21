@@ -1,0 +1,13 @@
+# .barrot.yml
+permissions:
+  resolve_merge_conflicts: true
+    sanitize_filenames:
+        enabled: true
+            max_length: 128
+                strategy: truncate_preserve_prefix
+                  motif_arbitration:
+                      enabled: true
+                          precedence: 
+                                - simulate-as-echo
+                                      - contradiction-amplified
+                                            - sealed-loop
