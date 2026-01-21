@@ -1,50 +1,42 @@
-#!/usr/bin/env python3
-
 import os
-import yaml
-import pathlib
+import subprocess
 
-CONFIG_PATH = ".barrot.yml"
-MAX_FILENAME_LENGTH = 255
+def ensure_gitlab_ci():
+    ci_path = ".gitlab-ci.yml"
+        if os.path.exists(ci_path):
+                print("🧾 .gitlab-ci.yml already exists. Barrot will not overwrite it.")
+                        return False
 
-def load_config():
-    if not os.path.exists(CONFIG_PATH):
-            print("No .barrot.yml found. Skipping.")
-                    return {}
-                        with open(CONFIG_PATH, "r") as f:
-                                return yaml.safe_load(f).get("permissions", {})
+                            content = """stages:
+                              - test
 
-                                def sanitize_filenames(config):
-                                    if not config.get("sanitize_filenames", {}).get("enabled", False):
-                                            return
-                                                max_len = config["sanitize_filenames"].get("max_length", 128)
-                                                    strategy = config["sanitize_filenames"].get("strategy", "truncate_pr")
+                              barrot_premerge:
+                                stage: test
+                                  script:
+                                      - python3 scripts/barrot_premerge.py
+                                        only:
+                                            - merge_requests
+                                            """
+                                                with open(ci_path, "w") as f:
+                                                        f.write(content)
+                                                            print("🛠️  Barrot created .gitlab-ci.yml")
+                                                                return True
 
-                                                        for root, _, files in os.walk("."):
-                                                                for name in files:
-                                                                            full_path = os.path.join(root, name)
-                                                                                        if len(name) > max_len:
-                                                                                                        new_name = name[:max_len]
-                                                                                                                        new_path = os.path.join(root, new_name)
-                                                                                                                                        print(f"Renaming: {full_path} → {new_path}")
-                                                                                                                                                        pathlib.Path(full_path).rename(new_path)
+                                                                def git_push_ci_update():
+                                                                    try:
+                                                                            subprocess.run(["git", "add", ".gitlab-ci.yml"], check=True)
+                                                                                    subprocess.run(["git", "commit", "-m", "Barrot: CI pipeline initialized"], check=True)
+                                                                                            subprocess.run(["git", "push", "-u", "origin", "main"], check=True)
+                                                                                                    print("🚀 Barrot pushed the updated .gitlab-ci.yml to GitLab.")
+                                                                                                        except subprocess.CalledProcessError as e:
+                                                                                                                print(f"❌ Git push failed: {e}")
 
-                                                                                                                                                        def resolve_conflicts(config):
-                                                                                                                                                            if not config.get("resolve_merge_conflicts", False):
-                                                                                                                                                                    return
-                                                                                                                                                                        print("Barrot is authorized to resolve merge conflicts — but this script does not auto-resolve yet.")
+                                                                                                                def main():
+                                                                                                                    created = ensure_gitlab_ci()
+                                                                                                                        if created:
+                                                                                                                                git_push_ci_update()
+                                                                                                                                    print("✅ Barrot pre-merge complete.")
 
-                                                                                                                                                                        def arbitrate_motifs(config):
-                                                                                                                                                                            if not config.get("motif_arbitration", {}).get("enabled", False):
-                                                                                                                                                                                    return
-                                                                                                                                                                                        precedence = config["motif_arbitration"].get("precedence", [])
-                                                                                                                                                                                            print(f"Motif arbitration enabled. Precedence: {precedence}")
-
-                                                                                                                                                                                            def main():
-                                                                                                                                                                                                config = load_config()
-                                                                                                                                                                                                    sanitize_filenames(config)
-                                                                                                                                                                                                        resolve_conflicts(config)
-                                                                                                                                                                                                            arbitrate_motifs(config)
-
-                                                                                                                                                                                                            if __name__ == "__main__":
-                                                                                                                                                                                                                main()
+                                                                                                                                    if __name__ == "__main__":
+                                                                                                                                        main()
+                                                                                                                                        
