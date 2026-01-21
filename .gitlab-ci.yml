@@ -1,19 +1,15 @@
-stages:
-  - build
-    - test
-
-    build_barrot:
-      stage: build
-        script:
-            - echo "Building Barrot..."
-                - # your build commands here
-                  tags:
-                      - barrot
-
-                      test_barrot:
-                        stage: test
-                          script:
-                              - echo "Running tests for Barrot..."
-                                  - # your test commands here
-                                    tags:
-                                        - barrot
+barrot_pat_check:
+    stage: test
+      script:
+          - echo "🔍 Checking for available GitLab PAT..."
+              - |
+                    if [ -n "$GITLAB_PAT" ]; then
+                            echo "Using GITLAB_PAT"
+                                    curl --header "PRIVATE-TOKEN: $GITLAB_PAT" https://gitlab.com/api/v4/user
+                                          elif [ -n "$GITLAB_PATT" ]; then
+                                                  echo "Using GITLAB_PATT"
+                                                          curl --header "PRIVATE-TOKEN: $GITLAB_PATT" https://gitlab.com/api/v4/user
+                                                                else
+                                                                        echo "❌ No GitLab PAT found in environment variables"
+                                                                                exit 1
+                                                                                      fi
