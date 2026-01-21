@@ -39,7 +39,45 @@ barrot_pat_check:
                                                                                                                                 print(f"Merging MR !{mr['iid']}: {res.status_code} - {res.text}")
 
                                                                                                                                 for mr in get_open_mrs():
-                                                                                                                                    if mr["merge_status"] == "can_be_merged":
+                                                                       import os
+                                                                       import requests
+                                                                       
+                                                                       GITLAB_API = "https://gitlab.com/api/v4"
+                                                                       PROJECT_ID = os.getenv("CI_PROJECT_ID")
+                                                                       TOKEN = os.getenv("GITLAB_PAT") or os.getenv("GITLAB_PATT")
+                                                                       
+                                                                       if not TOKEN:
+                                                                           raise Exception("❌ No GitLab PAT found in environment variables.")
+                                                                           
+                                                                           headers = {"PRIVATE-TOKEN": TOKEN}
+                                                                           
+                                                                           def get_open_mrs():
+                                                                               url = f"{GITLAB_API}/projects/{PROJECT_ID}/merge_requests?state=opened"
+                                                                                   res = requests.get(url, headers=headers)
+                                                                                       res.raise_for_status()
+                                                                                           return res.json()
+                                                                                           
+                                                                                           def merge_mr(mr):
+                                                                                               url = f"{GITLAB_API}/projects/{PROJECT_ID}/merge_requests/{mr['iid']}/merge"
+                                                                                                   data = {
+                                                                                                           "merge_when_pipeline_succeeds": True,
+                                                                                                                   "should_remove_source_branch": True
+                                                                                                                       }
+                                                                                                                           res = requests.put(url, headers=headers, json=data)
+                                                                                                                               print(f"🔁 Merging MR !{mr['iid']} - {mr['title']}: {res.status_code}")
+                                                                                                                                   print(res.text)
+                                                                                                                                   
+                                                                                                                                   def main():
+                                                                                                                                       print("🤖 Barrot scanning for open merge requests...")
+                                                                                                                                           for mr in get_open_mrs():
+                                                                                                                                                   if mr["merge_status"] == "can_be_merged":
+                                                                                                                                                               print(f"✅ Ready to merge: !{mr['iid']} - {mr['title']}")
+                                                                                                                                                                           merge_mr(mr)
+                                                                                                                                                                                   else:
+                                                                                                                                                                                               print(f"⛔ Skipping !{mr['iid']} - Not mergeable (status: {mr['merge_status']})")
+                                                                                                                                                                                               
+                                                                                                                                                                                               if __name__ == "__main__":
+                                                                                                                                                                                                   main()                                                             if mr["merge_status"] == "can_be_merged":
                                                                                                                                             print(f"✅ Ready to merge: !{mr['iid']} - {mr['title']}")
                                                                                                                                                     merge_mr(mr)
                                                                                                                                                         else:
