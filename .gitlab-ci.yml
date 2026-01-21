@@ -1,0 +1,19 @@
+stages:
+  - build
+    - test
+
+    build_barrot:
+      stage: build
+        script:
+            - echo "Building Barrot..."
+                - # your build commands here
+                  tags:
+                      - barrot
+
+                      test_barrot:
+                        stage: test
+                          script:
+                              - echo "Running tests for Barrot..."
+                                  - # your test commands here
+                                    tags:
+                                        - barrot
