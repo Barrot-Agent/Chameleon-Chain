@@ -1,0 +1,37 @@
+barrot_pat_check:
+  stage: test
+    script:
+        - echo "🔍 Checking for available GitLab PAT..."
+            - |
+                  if [ -n "$GITLAB_PAT" ]; then
+                          echo "Using GITLAB_PAT"
+                                  curl --header "PRIVATE-TOKEN: $GITLAB_PAT" https://gitlab.com/api/v4/user
+                                        elif [ -n "$GITLAB_PATT" ]; then
+                                                echo "Using GITLAB_PATT"
+                                                        curl --header "PRIVATE-TOKEN: $GITLAB_PATT" https://gitlab.com/api/v4/user
+                                                              else
+                                                                      echo "❌ No GitLab PAT found in environment variables"
+                                                                              exit 1
+
+                                                                              barrot_merge_mrs:
+                                                                                stage: deploy
+                                                                                  script:
+                                                                                      - echo "🤖 Barrot scanning for merge requests..."
+                                                                                          - python barrot/tasks/merge.py
+                                                                                            only:
+                                                                                                - schedules
+                                                                                                    - main
+
+                                                                                                    barrot_sync_main_to_master:
+                                                                                                      stage: barrot
+                                                                                                        script:
+                                                                                                            - echo "🔄 Syncing main into master..."
+                                                                                                                - git config --global user.email "amazonprostarelite@gmail.com"
+                                                                                                                    - git config --global user.name "Barrot-Agent"
+                                                                                                                        - git remote set-url origin https://$DEPLOY_USER:$DEPLOY_TOKEN@gitlab.com/barrot-agent-group/Barrot-Agent-project.git
+                                                                                                                            - git fetch origin
+                                                                                                                                - git checkout master
+                                                                                                                                    - git merge origin/main --no-edit || echo "⚠️ Merge conflict — manual resolution required."
+                                                                                                                                        - git push origin master || echo "⚠️ Push failed — check permissions or conflicts."
+                                                                                                                                          only:
+                                                                                                                                              - schedules
