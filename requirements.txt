@@ -1,3 +1,0 @@
-# Barrot-Agent Python Dependencies
-# For static file serving, no external packages required
-# Standard library only - using Python's built-in http.server module
