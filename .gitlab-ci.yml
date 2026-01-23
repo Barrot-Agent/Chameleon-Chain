@@ -1,0 +1,38 @@
+cat > .gitlab-ci.yml << 'EOF'
+image: python:3.11
+
+stages:
+  - test
+  - build
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+
+before_script:
+  - python --version
+  - pip install --upgrade pip setuptools wheel
+  - pip install .[dev]
+
+test:
+  stage: test
+  script:
+    - pytest
+  artifacts:
+    when: always
+    reports:
+      junit: pytest-report.xml
+
+build:
+  stage: build
+  script:
+    - pip install build
+    - python -m build
+  artifacts:
+    paths:
+      - dist/
+EOF
+ 
