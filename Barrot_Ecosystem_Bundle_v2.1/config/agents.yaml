@@ -1,1 +1,721 @@
-agents:\n  - id: agent_alpha\n    specialties: ["analysis", "planning"]\n    allowed_roles: ["Researcher", "Architect"]\n    synergy_hint: 0.7
+agents:
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_001
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_002
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_003
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_004
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_005
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_006
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_007
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_008
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_009
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_010
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_011
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_012
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_013
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_014
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_015
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_016
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_017
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_018
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_019
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_020
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_021
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_022
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_023
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_024
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_025
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_026
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_027
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_028
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_029
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_030
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_031
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_032
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_033
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_034
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_035
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_036
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_037
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_038
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_039
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_040
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_041
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_042
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_043
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_044
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_045
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_046
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_047
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_048
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_049
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_050
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_051
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_052
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_053
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_054
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_055
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_056
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_057
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_058
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_059
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_060
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_061
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_062
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_063
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_064
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_065
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_066
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_067
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_068
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_069
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_070
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_071
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_072
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_073
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_074
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_075
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_076
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_077
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_078
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_079
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_080
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_081
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_082
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_083
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_084
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_085
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_086
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_087
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_088
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_089
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_090
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_091
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_092
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_093
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_094
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_095
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_096
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_097
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_098
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_099
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_100
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_101
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_102
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_103
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_104
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_105
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_106
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_107
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_108
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_109
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_110
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_111
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_112
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_113
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_114
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_115
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_116
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_117
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_118
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_119
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_120
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_121
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_122
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_123
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_124
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_125
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_126
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_127
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_128
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_129
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_130
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_131
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_132
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_133
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_134
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_135
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_136
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_137
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_138
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_139
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_140
+  synergy_hint: 0.707
+  wing: Math-Logic
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_141
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_142
+  synergy_hint: 0.707
+  wing: Warp-Research
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_143
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- allowed_roles:
+  - Swarm-Entity
+  id: agent_144
+  synergy_hint: 0.707
+  wing: Math-Logic
