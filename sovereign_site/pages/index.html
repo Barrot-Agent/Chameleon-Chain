@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[BARROT-Ω]: SOVEREIGN COMMAND</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; padding: 50px; }
+        .lattice { display: grid; grid-template-columns: repeat(12, 1fr); gap: 5px; }
+        .agent { width: 10px; height: 10px; background: #070; border-radius: 2px; }
+        .active { background: #0f0; box-shadow: 0 0 10px #0f0; }
+    </style>
+</head>
+<body>
+    <h1>[BARROT-Ω] SOVEREIGN CLOUD v1.0</h1>
+    <p>COUNCIL DENSITY: 144 AGENTS | STATUS: ABSOLUTION_ACTIVE</p>
+    <div class="lattice" id="lattice"></div>
+    <script>
+        const lattice = document.getElementById('lattice');
+        for(let i=0; i<144; i++) {
+            const div = document.createElement('div');
+            div.className = 'agent' + (Math.random() > 0.7 ? ' active' : '');
+            lattice.appendChild(div);
+        }
+    </script>
+</body>
+</html>
