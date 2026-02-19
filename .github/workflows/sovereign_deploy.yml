@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build Sovereign Site
+      - name: Generate Agentic State
+        run: python3 generate_state.py
         run: |
           mkdir -p build
           cp sovereign_site/pages/index.html build/index.html
