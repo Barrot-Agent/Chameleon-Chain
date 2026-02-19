@@ -1,721 +1,721 @@
 agents:
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_001
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_002
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_003
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_004
+- capability: AIMO/PINNs Solver
+  id: math_000
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_005
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_006
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_007
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_008
+- capability: AIMO/PINNs Solver
+  id: math_001
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_009
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_010
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_011
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_012
+- capability: AIMO/PINNs Solver
+  id: math_002
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_013
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_014
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_015
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_016
+- capability: AIMO/PINNs Solver
+  id: math_003
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_017
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_018
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_019
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_020
+- capability: AIMO/PINNs Solver
+  id: math_004
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_021
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_022
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_023
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_024
+- capability: AIMO/PINNs Solver
+  id: math_005
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_025
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_026
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_027
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_028
+- capability: AIMO/PINNs Solver
+  id: math_006
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_029
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_030
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_031
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_032
+- capability: AIMO/PINNs Solver
+  id: math_007
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_033
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_034
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_035
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_036
+- capability: AIMO/PINNs Solver
+  id: math_008
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_037
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_038
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_039
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_040
+- capability: AIMO/PINNs Solver
+  id: math_009
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_041
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_042
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_043
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_044
+- capability: AIMO/PINNs Solver
+  id: math_010
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_045
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_046
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_047
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_048
+- capability: AIMO/PINNs Solver
+  id: math_011
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_049
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_050
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_051
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_052
+- capability: AIMO/PINNs Solver
+  id: math_012
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_053
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_054
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_055
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_056
+- capability: AIMO/PINNs Solver
+  id: math_013
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_057
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_058
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_059
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_060
+- capability: AIMO/PINNs Solver
+  id: math_014
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_061
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_062
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_063
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_064
+- capability: AIMO/PINNs Solver
+  id: math_015
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_065
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_066
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_067
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_068
+- capability: AIMO/PINNs Solver
+  id: math_016
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_069
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_070
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_071
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_072
+- capability: AIMO/PINNs Solver
+  id: math_017
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_073
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_074
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_075
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_076
+- capability: AIMO/PINNs Solver
+  id: math_018
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_077
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_078
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_079
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_080
+- capability: AIMO/PINNs Solver
+  id: math_019
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_081
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_082
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_083
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_084
+- capability: AIMO/PINNs Solver
+  id: math_020
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_085
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_086
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_087
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_088
+- capability: AIMO/PINNs Solver
+  id: math_021
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_089
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_090
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_091
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_092
+- capability: AIMO/PINNs Solver
+  id: math_022
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_093
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_094
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_095
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_096
+- capability: AIMO/PINNs Solver
+  id: math_023
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_097
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_098
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_099
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_100
+- capability: AIMO/PINNs Solver
+  id: math_024
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_101
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_102
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_103
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_104
+- capability: AIMO/PINNs Solver
+  id: math_025
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_105
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_106
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_107
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_108
+- capability: AIMO/PINNs Solver
+  id: math_026
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_109
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_110
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_111
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_112
+- capability: AIMO/PINNs Solver
+  id: math_027
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_113
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_114
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_115
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_116
+- capability: AIMO/PINNs Solver
+  id: math_028
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_117
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_118
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_119
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_120
+- capability: AIMO/PINNs Solver
+  id: math_029
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_121
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_122
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_123
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_124
+- capability: AIMO/PINNs Solver
+  id: math_030
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_125
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_126
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_127
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_128
+- capability: AIMO/PINNs Solver
+  id: math_031
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_129
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_130
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_131
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_132
+- capability: AIMO/PINNs Solver
+  id: math_032
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_133
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_134
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_135
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_136
+- capability: AIMO/PINNs Solver
+  id: math_033
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_137
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_138
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_139
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_140
+- capability: AIMO/PINNs Solver
+  id: math_034
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_141
-  synergy_hint: 0.707
-  wing: Market-Arbitrage
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_142
-  synergy_hint: 0.707
-  wing: Warp-Research
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_143
-  synergy_hint: 0.707
-  wing: Render-Supremacy
-- allowed_roles:
-  - Swarm-Entity
-  id: agent_144
+- capability: AIMO/PINNs Solver
+  id: math_035
+  logic_layer: Millennium-Question-Logic
   synergy_hint: 0.707
   wing: Math-Logic
+- capability: Revenue Maximization
+  id: mark_000
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_001
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_002
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_003
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_004
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_005
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_006
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_007
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_008
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_009
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_010
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_011
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_012
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_013
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_014
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_015
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_016
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_017
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_018
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_019
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_020
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_021
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_022
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_023
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_024
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_025
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_026
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_027
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_028
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_029
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_030
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_031
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_032
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_033
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_034
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: Revenue Maximization
+  id: mark_035
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Market-Arbitrage
+- capability: FTL/Fusion Monitoring
+  id: warp_000
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_001
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_002
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_003
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_004
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_005
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_006
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_007
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_008
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_009
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_010
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_011
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_012
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_013
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_014
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_015
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_016
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_017
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_018
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_019
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_020
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_021
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_022
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_023
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_024
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_025
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_026
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_027
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_028
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_029
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_030
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_031
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_032
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_033
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_034
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: FTL/Fusion Monitoring
+  id: warp_035
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Warp-Research
+- capability: Fidelity Orchestration
+  id: rend_000
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_001
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_002
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_003
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_004
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_005
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_006
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_007
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_008
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_009
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_010
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_011
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_012
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_013
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_014
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_015
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_016
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_017
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_018
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_019
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_020
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_021
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_022
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_023
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_024
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_025
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_026
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_027
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_028
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_029
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_030
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_031
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_032
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_033
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_034
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
+- capability: Fidelity Orchestration
+  id: rend_035
+  logic_layer: Millennium-Question-Logic
+  synergy_hint: 0.707
+  wing: Render-Supremacy
