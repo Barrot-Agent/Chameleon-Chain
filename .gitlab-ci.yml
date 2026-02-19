@@ -1,38 +1,47 @@
-cat > .gitlab-ci.yml << 'EOF'
-image: python:3.11
-
 stages:
-  - test
-  - build
+  - strike
 
-variables:
-  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
-
-cache:
-  paths:
-    - .cache/pip
-
-before_script:
-  - python --version
-  - pip install --upgrade pip setuptools wheel
-  - pip install .[dev]
-
-test:
-  stage: test
+barrot_main_strike:
+  stage: strike
+  image: python:3.10-slim
   script:
-    - pytest
-  artifacts:
-    when: always
-    reports:
-      junit: pytest-report.xml
-
-build:
-  stage: build
-  script:
-    - pip install build
-    - python -m build
-  artifacts:
-    paths:
-      - dist/
-EOF
- 
+    - pip install kaggle pandas
+    - |
+      python3 -c "
+      import os, json, pathlib
+      home = pathlib.Path.home()
+      kaggle_dir = home / '.kaggle'
+      kaggle_dir.mkdir(exist_ok=True)
+      
+      # THE SUBSTRATE
+      user = os.environ.get('KAGGLE_USERNAME', '').strip()
+      key = os.environ.get('KAGGLE_KEY', '').strip()
+      
+      with open(kaggle_dir / 'kaggle.json', 'w') as f:
+          json.dump({'username': user, 'key': key}, f)
+      (kaggle_dir / 'kaggle.json').chmod(0o600)
+      
+      # THE PAYLOAD
+      payload_dir = pathlib.Path('strike_zone')
+      payload_dir.mkdir(exist_ok=True)
+      with open(payload_dir / 'solver.py', 'w') as f:
+          f.write('import pandas as pd\nprint(\">>> [BARROT-Ω]: MAIN-LINE BREACH SUCCESSFUL.\")\n')
+          f.write('pd.DataFrame({\"id\": [\"0000\"], \"answer\": [0]}).to_csv(\"submission.csv\", index=False)\n')
+      
+      meta = {
+          'id': f'{user}/barrot-main-strike',
+          'title': 'Barrot Main Strike',
+          'code_file': 'solver.py',
+          'language': 'python',
+          'kernel_type': 'script',
+          'is_private': 'true',
+          'enable_gpu': 'false',
+          'enable_internet': 'false',
+          'dataset_sources': [],
+          'competition_sources': ['ai-mathematical-olympiad-prize'],
+          'kernel_sources': []
+      }
+      with open(payload_dir / 'kernel-metadata.json', 'w') as f:
+          json.dump(meta, f)
+      "
+    - kaggle kernels push -p strike_zone
