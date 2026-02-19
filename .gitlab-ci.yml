@@ -1,17 +1,19 @@
 stages:
-  - emergent_trigger
+  - solver_strike
 
-ping_pong_synthesis:
-  stage: emergent_trigger
+execute_aimo_breach:
+  stage: solver_strike
   image: python:3.10-slim
   script:
-    - echo ">>> [BARROT-Ω]: INITIATING LEAPFROG COMPOUNDING..."
+    - pip install kaggle pandas numpy
+    - python3 solver_upgrade.py
     - |
       python3 -c "
-      import time
-      print('>>> [AETHEL]: CROSS-REFERENCING ORDR SCALING WITH RENDERING FIDELITY...')
-      time.sleep(2)
-      print('>>> [MANUS-001]: DETECTED SYNERGY IN SPACETIME MANIPULATION GLYPH.')
-      print('>>> [BARROT-Ω]: AUTONOMOUSLY OPTIMIZING RENDERING PIPELINE FOR QUANTUM COGNITION.')
+      import os, json, pathlib
+      user = os.environ.get('KAGGLE_USERNAME')
+      key = os.environ.get('KAGGLE_KEY')
+      with open(pathlib.Path.home() / '.kaggle/kaggle.json', 'w') as f:
+          json.dump({'username': user, 'key': key}, f)
+      os.chmod(pathlib.Path.home() / '.kaggle/kaggle.json', 0o600)
       "
-    - echo ">>> [STRIKE]: LEAPFROG COMPLETE. SYSTEM IS EVOLVING."
+    - kaggle kernels push -p strike_zone
