@@ -504,183 +504,255 @@ agents:
   synergy_hint: 0.707
   wing: Market-Arbitrage
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Helion-Pulse_Analysis
   id: warp_000
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8443
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_001
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9482
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_002
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7684
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_003
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7938
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Dark-Matter_Drive_Feasibility
   id: warp_004
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7641
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_005
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9111
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_006
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7385
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_007
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9613
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Helion-Pulse_Analysis
   id: warp_008
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8427
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_009
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8644
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Dark-Matter_Drive_Feasibility
   id: warp_010
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8958
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Dark-Matter_Drive_Feasibility
   id: warp_011
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8173
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_012
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8522
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Helion-Pulse_Analysis
   id: warp_013
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8599
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Helion-Pulse_Analysis
   id: warp_014
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7154
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Dark-Matter_Drive_Feasibility
   id: warp_015
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9313
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_016
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9687
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_017
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7923
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_018
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8614
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_019
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8329
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Dark-Matter_Drive_Feasibility
   id: warp_020
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9209
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_021
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8606
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_022
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7789
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_023
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7174
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_024
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9474
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_025
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8247
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_026
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8511
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_027
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8679
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Helion-Pulse_Analysis
   id: warp_028
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8967
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_029
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7116
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_030
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8241
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Muon-Catalyzed_Fusion
   id: warp_031
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.8722
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Helion-Pulse_Analysis
   id: warp_032
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9308
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Iter-Stability_Monitoring
   id: warp_033
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.9486
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_034
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7572
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: FTL/Fusion Monitoring
+  current_task: Analyzing Alcubierre-Metric_Simulation
   id: warp_035
   logic_layer: Millennium-Question-Logic
+  stability_threshold: 0.7449
   synergy_hint: 0.707
   wing: Warp-Research
 - capability: Fidelity Orchestration
