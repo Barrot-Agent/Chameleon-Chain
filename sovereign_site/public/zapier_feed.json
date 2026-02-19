@@ -1,0 +1,37 @@
+[
+  {
+    "event_id": "EVT_1771528294_0",
+    "source_wing": "Warp-Research",
+    "intelligence_density": "0.707_RMS",
+    "action_required": "True",
+    "payload_summary": "Substrate strike 1 completed with absolute integrity."
+  },
+  {
+    "event_id": "EVT_1771528294_1",
+    "source_wing": "Render-Supremacy",
+    "intelligence_density": "0.707_RMS",
+    "action_required": "True",
+    "payload_summary": "Substrate strike 2 completed with absolute integrity."
+  },
+  {
+    "event_id": "EVT_1771528294_2",
+    "source_wing": "Warp-Research",
+    "intelligence_density": "0.707_RMS",
+    "action_required": "True",
+    "payload_summary": "Substrate strike 3 completed with absolute integrity."
+  },
+  {
+    "event_id": "EVT_1771528294_3",
+    "source_wing": "Warp-Research",
+    "intelligence_density": "0.707_RMS",
+    "action_required": "True",
+    "payload_summary": "Substrate strike 4 completed with absolute integrity."
+  },
+  {
+    "event_id": "EVT_1771528294_4",
+    "source_wing": "Math-Logic",
+    "intelligence_density": "0.707_RMS",
+    "action_required": "True",
+    "payload_summary": "Substrate strike 5 completed with absolute integrity."
+  }
+]
