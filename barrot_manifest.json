@@ -1,7 +1,7 @@
 {
-  "status": "ABSOLUTION_ACTIVE",
-  "timestamp": "Thu Feb 19 13:47:35 2026",
+  "controller": "Barrot-GitHub-App",
+  "app_id": "BARROT-001",
+  "council_status": "ENTANGLED",
   "agent_count": 144,
-  "platform": "GitHub_Actions",
-  "leapfrog_enabled": true
+  "sovereign_hosting": "ACTIVE"
 }
