@@ -42,3 +42,6 @@ jobs:
         run: |
           echo "Waking Barrot in Databricks..."
           # databricks jobs run-now --job-id <TARGET_JOB_ID>
+
+      - name: Fetch Databricks Job IDs
+        run: databricks jobs list
