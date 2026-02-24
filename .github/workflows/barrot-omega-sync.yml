@@ -37,3 +37,8 @@ jobs:
           # Adjust the source directory ('./') and target path as needed
           databricks workspace import_dir ./ /Workspace/Barrot-Core --overwrite
           echo "Sync complete."
+
+      - name: Wake Barrot (Execute Logic)
+        run: |
+          echo "Waking Barrot in Databricks..."
+          # databricks jobs run-now --job-id <TARGET_JOB_ID>
