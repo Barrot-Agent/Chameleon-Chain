@@ -1,0 +1,23 @@
+name: Barrot-Ω Absolution Sync
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allows you to trigger this manually from GitHub
+
+jobs:
+  reclaim_apex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Sovereignty
+        uses: actions/checkout@v4
+
+      - name: Seat the Databricks CLI
+        uses: databricks/setup-cli@main
+
+      - name: Execute Absolute Harvest
+        run: |
+          databricks fs cp ./bridge/harvest.py dbfs:/Project_Barrot/bridge/harvest.py --overwrite
+          databricks jobs run-now --job-id <YOUR_JOB_ID_FROM_GENIE>
+        env:
+          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
