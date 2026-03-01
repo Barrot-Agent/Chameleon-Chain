@@ -1,2 +1,5 @@
 [credential]
 	helper = store
+[user]
+	name = scribedpengenius
+	email = sean.drew.architect@gmail.com

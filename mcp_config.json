@@ -9,7 +9,10 @@
     },
     "databricks_memory": {
       "command": "python",
-      "args": ["barrot_databricks_mcp.py"]
+      "args": ["barrot_databricks_mcp.py"],
+      "env": {
+        "DATABRICKS_TOKEN": "dapidc11db2706330d987b12779f3c70e37c"
+      }
     }
   }
 }

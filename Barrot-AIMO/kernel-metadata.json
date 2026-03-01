@@ -1,0 +1,11 @@
+{
+  "id": "scribedpengenius/barrot-strike-final",
+  "title": "barrot-strike-final",
+  "code_file": "solver.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "false",
+  "competition_sources": ["ai-mathematical-olympiad-progress-prize-3"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sdrew84/barrot-agent-aimo3-strike",
+  "title": "barrot-agent-aimo3-strike",
+  "code_file": "master_solver.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": ["ai-mathematical-olympiad-progress-prize-3"],
+  "kernel_sources": [],
+  "model_sources": []
+}

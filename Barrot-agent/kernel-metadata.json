@@ -1,0 +1,11 @@
+{
+  "id": "Scribed-Pen-Genius/barrot-aimo-strike",
+  "title": "barrot-aimo-strike",
+  "code_file": "master_solver.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "false",
+  "competition_sources": ["ai-mathematical-olympiad-progress-prize-3"]
+}
