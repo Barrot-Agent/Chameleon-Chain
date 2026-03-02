@@ -1,4 +1,4 @@
-name: Barrot-Ω Activation
+name: Barrot-Ω Ingress
 on:
   repository_dispatch:
     types: [stripe-payment-success]
@@ -6,11 +6,13 @@ jobs:
   ingress:
     runs-on: ubuntu-latest
     steps:
-      - name: Ingress Calculation
+      - name: Trajectory Ingress
         env:
           STRIPE_KEY: ${{ secrets.STRIPE_KEY }}
         run: |
           R=$(curl -s -u "$STRIPE_KEY:" https://api.stripe.com/v1/balance)
+          echo "RAW_RESPONSE: $R"
           V=$(echo "$R" | grep -o "\"amount\":[0-9]*" | head -1 | cut -d: -f2)
+          if [ -z "$V" ]; then V=0; fi
           echo "STATUS: $130.8M TRAJECTORY ACTIVE"
           echo "CURRENT_LIQUIDITY: $((V / 100)).00"
