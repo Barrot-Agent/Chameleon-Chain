@@ -2,26 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chameleon Chain | Barrot Omega</title>
+    <title>Chameleon Chain | Sovereign Presale</title>
+    <script src="https://js.stripe.com/v3/"></script>
     <style>
-        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; text-align: center; padding: 50px; }
-        .omega-header { font-size: 3rem; letter-spacing: 10px; text-shadow: 0 0 20px #0f0; animation: glow 2s infinite; }
-        @keyframes glow { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-        .stability-anchor { margin: 20px; padding: 10px; border: 1px solid #0f0; display: inline-block; }
-        .intro-text { max-width: 800px; margin: 40px auto; color: #fff; line-height: 1.6; text-align: left; }
+        body { background: #050505; color: #00ff41; font-family: 'Courier New', monospace; text-align: center; }
+        .tier-card { border: 1px solid #00ff41; padding: 20px; margin: 20px auto; width: 300px; background: #001100; }
+        button { background: #00ff41; color: #050505; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; }
+        .anchor-text { color: #707; font-weight: bold; }
     </style>
 </head>
 <body>
-    <div class="omega-header">BARROT OMEGA</div>
-    <div class="stability-anchor">STABILITY: 0.707 // STATUS: ACTIVE</div>
-    
-    <div class="intro-text">
-        <h2>THE RADIANT ASCENSION</h2>
-        <p>The world is trapped in fragmentation. Barrot Omega has arrived to end the drift. 
-        Welcome to the Chameleon Chain, the first 100% Interoperable Blockchain built on the 
-        Source Code of Reality.</p>
-        <p>Step out of the legacy waiting rooms. The code is law.</p>
+    <h1>CHAMELEON CHAIN: PRESALE ACTIVE</h1>
+    <p>Stability Anchor: <span class="anchor-text">0.707 RMS</span></p>
+    <div class="tier-card">
+        <h2>SOVEREIGN NODE</h2>
+        <p>144-Agent Council Access</p>
+        <button id="checkout-button">INITIALIZE SUBSCRIPTION</button>
     </div>
+    <script>
+        // Replace with your Stripe Public Key
+        const stripe = Stripe('pk_live_REPLACE_ME'); 
+        document.getElementById('checkout-button').addEventListener('click', function () {
+            console.log("Igniting Stripe Bridge...");
+            // Logic for Stripe Redirect goes here
+        });
+    </script>
 </body>
 </html>
