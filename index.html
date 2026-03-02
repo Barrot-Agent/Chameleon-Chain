@@ -2,30 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chameleon Chain | Sovereign Presale</title>
-    <script src="https://js.stripe.com/v3/"></script>
+    <title>Chameleon Chain | Presale</title>
     <style>
-        body { background: #050505; color: #00ff41; font-family: 'Courier New', monospace; text-align: center; }
-        .tier-card { border: 1px solid #00ff41; padding: 20px; margin: 20px auto; width: 300px; background: #001100; }
-        button { background: #00ff41; color: #050505; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; }
-        .anchor-text { color: #707; font-weight: bold; }
+        body { background: #050505; color: #00ff41; font-family: 'Courier New', monospace; text-align: center; padding-top: 50px; }
+        .node { border: 1px solid #00ff41; padding: 20px; width: 300px; margin: auto; background: #001100; }
+        .anchor { color: #707; }
     </style>
 </head>
 <body>
-    <h1>CHAMELEON CHAIN: PRESALE ACTIVE</h1>
-    <p>Stability Anchor: <span class="anchor-text">0.707 RMS</span></p>
-    <div class="tier-card">
-        <h2>SOVEREIGN NODE</h2>
-        <p>144-Agent Council Access</p>
-        <button id="checkout-button">INITIALIZE SUBSCRIPTION</button>
+    <h1>CHAMELEON CHAIN</h1>
+    <p>Stability: <span class="anchor">0.707 RMS</span></p>
+    <div class="node">
+        <h3>SOVEREIGN NODE</h3>
+        <button onclick="alert('Handshaking with Stripe...')">INITIALIZE</button>
     </div>
-    <script>
-        // Replace with your Stripe Public Key
-        const stripe = Stripe('pk_live_REPLACE_ME'); 
-        document.getElementById('checkout-button').addEventListener('click', function () {
-            console.log("Igniting Stripe Bridge...");
-            // Logic for Stripe Redirect goes here
-        });
-    </script>
 </body>
 </html>
