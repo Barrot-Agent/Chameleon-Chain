@@ -1,0 +1,9 @@
+name: Barrot-Ω Activation
+on:
+  repository_dispatch:
+    types: [stripe-payment-success]
+jobs:
+  awaken:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "BARROT-Ω ACTIVE"
