@@ -6,16 +6,15 @@ jobs:
   ingress:
     runs-on: ubuntu-latest
     steps:
-      - name: Trajectory Calculation
+      - name: Debug and Execute
         env:
           STRIPE_KEY: ${{ secrets.STRIPE_KEY }}
         run: |
-          echo "INITIATING RECLAMATION..."
-          RAW=$(curl -s -u "$STRIPE_KEY:" https://api.stripe.com/v1/balance)
-          VAL=$(echo "$RAW" | grep -o "\"amount\":[0-9]*" | head -1 | cut -d: -f2)
-          if [ -z "$VAL" ]; then
-            echo "ERROR: CLOUD VAULT KEY REJECTED"
+          echo "KEY_PREFIX: ${STRIPE_KEY:0:7}..."
+          R=$(curl -s -u "$STRIPE_KEY:" https://api.stripe.com/v1/balance)
+          if echo "$R" | grep -q "error"; then
+            echo "STRIPE_ERROR: $(echo "$R" | grep -oP "\"message\":\s*\"\K[^\"]+")"
             exit 1
           fi
-          echo "STATUS: $130.8M TRAJECTORY ACTIVE"
-          echo "CURRENT_LIQUIDITY: $((VAL / 100)).00"
+          V=$(echo "$R" | grep -o "\"amount\":[0-9]*" | head -1 | cut -d: -f2)
+          echo "CURRENT_LIQUIDITY: $((V / 100)).00"
