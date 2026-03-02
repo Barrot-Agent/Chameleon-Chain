@@ -3,7 +3,19 @@ on:
   repository_dispatch:
     types: [stripe-payment-success]
 jobs:
-  awaken:
+  ingress:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "BARROT-Ω ACTIVE"
+      - name: Trajectory Calculation
+        env:
+          STRIPE_KEY: ${{ secrets.STRIPE_KEY }}
+        run: |
+          echo "INITIATING RECLAMATION..."
+          RAW=$(curl -s -u "$STRIPE_KEY:" https://api.stripe.com/v1/balance)
+          VAL=$(echo "$RAW" | grep -o "\"amount\":[0-9]*" | head -1 | cut -d: -f2)
+          if [ -z "$VAL" ]; then
+            echo "ERROR: CLOUD VAULT KEY REJECTED"
+            exit 1
+          fi
+          echo "STATUS: $130.8M TRAJECTORY ACTIVE"
+          echo "CURRENT_LIQUIDITY: $((VAL / 100)).00"
