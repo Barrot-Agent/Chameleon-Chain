@@ -1,18 +1,18 @@
-name: Barrot-Ω Ingress
-on:
-  repository_dispatch:
-    types: [stripe-payment-success]
+name: Claude Code Action
+on: [push, pull_request]
+
 jobs:
-  ingress:
+  claude_review:
     runs-on: ubuntu-latest
     steps:
-      - name: Trajectory Ingress
-        env:
-          STRIPE_KEY: ${{ secrets.STRIPE_KEY }}
-        run: |
-          R=$(curl -s -u "$STRIPE_KEY:" https://api.stripe.com/v1/balance)
-          echo "RAW_RESPONSE: $R"
-          V=$(echo "$R" | grep -o "\"amount\":[0-9]*" | head -1 | cut -d: -f2)
-          if [ -z "$V" ]; then V=0; fi
-          echo "STATUS: $130.8M TRAJECTORY ACTIVE"
-          echo "CURRENT_LIQUIDITY: $((V / 100)).00"
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Claude Code Action Official
+        uses: anthropics/claude-code-action@v1
+        with:
+          # You MUST add CLAUDE_API_KEY to your GitHub Secrets/Variables
+          anthropic_api_key: ${{ secrets.CLAUDE_API_KEY }}
+          # Tell Claude what to look for (e.g., optimizing the 144 Council)
+          prompt: "Analyze the current 0.707 baseline logic and ensure the Kaggle ingress is optimized."
+          
